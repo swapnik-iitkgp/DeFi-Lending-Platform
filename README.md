@@ -20,53 +20,47 @@ The benefits of using a decentralized lending and borrowing dapp, such as securi
 The target audience for the dapp, such as crypto enthusiasts, NFT collectors, and borrowers.
 The future plans for the dapp, such as adding new features or expanding to other blockchains.
 
-Technology Stack & Tools
+**Technology Stack & Tools**
 
 Solidity (Writing Smart Contracts & Tests)
 Javascript (React & Testing)
 Truffle (Development Framework)
 Ethers.js (Blockchain Interaction)
 React.js (Frontend Framework)
-Chakra UI (React Component Library)
-Wagmi (React Hooks for Ethereum)
-RainbowKit (Wallet Connection)🌈
 
-Prerequisites
+**Prerequisites**
 To engage with the Dapp you will need the following :
 
-NodeJS (https://nodejs.org/en/)
+**NodeJS**
 npm install nodejs
 
-Ganache(https://www.trufflesuite.com/ganache)
+**Ganache**
 npm install ganache-cli -g
 
-Truffle([https://www.trufflesuite.com/truffle] (https://www.trufflesuite.com/truffle))
+**Truffle**
 npm install truffle
 
 Wallet ( one of the following )
-Metamask (Chrome Extension) 🦊
-Rainbow
-CoinbaseWallet
-WalletConnect
+Metamask (Chrome Extension)
 
-Setting Up
+**Setting Up**
 Clone/Download the repository
 Install dependencies in truffle and client folder
 npm install
 
-Truffle
+**Truffle**
 npm install truffle
 
-Run tests
+**Run tests**
 $ truffle test
 
-Start local Ganache Node
+**Start local Ganache Node**
 In a separate terminal execute run the following command : Ganache
 
-Deploy script locally
+**Deploy script locally**
 $ truffle console --network development
 $ truffle compile
 $ truffle migrate
 
-Run react project
+**Run react project**
 In frontend folder run the following command $ npm start
